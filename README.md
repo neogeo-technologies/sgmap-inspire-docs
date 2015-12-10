@@ -2,9 +2,9 @@
 
 Par l'[Incubateur de Services Numériques](http://sgmap.fr) et la [mission Etalab](http://www.etalab.gouv.fr).
 
- Notre ambition est d'apporter de nouveaux outils et bonnes pratiques permettant de répondre de manière plus pragmatique à la [directive Inspire](http://inspire.ec.europa.eu/), et d'en tirer des usages concrets.
+Notre ambition est d'apporter de nouveaux outils et bonnes pratiques permettant de répondre de manière plus pragmatique à la [directive Inspire](http://inspire.ec.europa.eu/), et d'en tirer des usages concrets.
 
- Cet espace est largement ouvert à la contribution.
+Cet espace est ouvert à la contribution.
 
 ## Guides
 
@@ -18,6 +18,10 @@ Par l'[Incubateur de Services Numériques](http://sgmap.fr) et la [mission Etala
 * Testeur de métadonnées au format ISO-19139 [à venir]
 * Testeur de catalogues CSW [à venir]
 * Testeur de services WFS [à venir]
+
+## API
+
+[Consulter la page dédiée au projet d'API](https://github.com/sgmap/inspire/blob/master/API.md)
 
 ## Liste des plateformes
 
