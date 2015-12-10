@@ -14,6 +14,7 @@ Par l'[Incubateur de Services Numériques](http://sgmap.fr) et la [mission Etala
 ## Outils
 
 * [Passerelle Inspire Open Data](https://inspire.data.gouv.fr)
+* [uMap : créer des cartes personnalisées](https://umap.openstreetmap.fr)
 * Testeur de métadonnées au format ISO-19139 [à venir]
 * Testeur de catalogues CSW [à venir]
 * Testeur de services WFS [à venir]
