@@ -35,6 +35,12 @@ Après plus de 6 mois de fonctionnement régulier, il est temps de transformer l
 * Prise en charge des métadonnées Dublin Core (demande Grand Lyon)
 * Scan des dossiers FTP (demande du [CRAIG](http://www.craig.fr/))
 * Prise en charge des formats d'imagerie (en particulier l'orthophotographie)
+* Indicateur de disponibilité des services WFS
+
+### Développements futurs
+
+* Archivage des métadonnées XML
+* Moissonnage des services WMS
 
 ## Projets de standardisation
 
