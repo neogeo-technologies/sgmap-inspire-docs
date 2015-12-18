@@ -21,13 +21,13 @@ Afin que vos données puissent être accessibles via la passerelle, il faut qu'e
 
     Pour créer un compte ou se connecter : https://www.data.gouv.fr/login. Il est recommandé de créer un compte directement sans l'interface d'un réseau social.
 
-    ![DataGouv - Inscription/connexion](/../img/annex_bridge_INSPIRE_DataGouv_00a.png "Se connecter ou créer un compte sur DataGouv")
+    ![DataGouv - Inscription/connexion](/img/annex_bridge_INSPIRE_DataGouv_00a.png "Se connecter ou créer un compte sur DataGouv")
 
 2. Créer / rejoindre une organisation sur DataGouv.fr
 
     Pour cela, il faut passer par l'administration de son profil : https://www.data.gouv.fr/fr/admin/organization/new/. Si elle existe déjà, faites une demande pour la rejoindre.
 
-    ![DataGouv - Organisation](/../img/annex_bridge_INSPIRE_DataGouv_00b_NewOrganization.png "Créer son organisation sur DataGouv")
+    ![DataGouv - Organisation](/img/annex_bridge_INSPIRE_DataGouv_00b_NewOrganization.png "Créer son organisation sur DataGouv")
 
 ### Référencement et moissonnage du flux CSW
 
@@ -39,13 +39,13 @@ Afin que vos données puissent être accessibles via la passerelle, il faut qu'e
 
     Une fois votre flux CSW référencé par l'équipe de DataGouv, il faut lancer le moissonnage. Pour cela, [se rendre sur la page des flux](https://inspire.data.gouv.fr/services/by-protocol/csw) et cliquer sur `Synchroniser`en regard de votre service.
 
-    ![Passerelle INSPIRE - Open Data (1)](/../img/annex_bridge_INSPIRE_DataGouv_1a_syncCSW.png "Page d'accueil de la passerelle")
+    ![Passerelle INSPIRE - Open Data (1)](/img/annex_bridge_INSPIRE_DataGouv_1a_syncCSW.png "Page d'accueil de la passerelle")
 
 3. Vérifier le moissonnage
 
     Une fois la synchronisation terminée (actualiser la page au bout de quelques minutes selon le nombre de métadonnées à moissonner), ouvrir la page détaillée du service. Le nombre de données compatibles est listé par le filtre `Disponibilité = Oui`.
 
-    ![Passerelle INSPIRE - Open Data (1)](/../img/annex_bridge_INSPIRE_DataGouv_1b_serviceDetails.png "Page d'accueil de la passerelle")
+    ![Passerelle INSPIRE - Open Data (1)](/img/annex_bridge_INSPIRE_DataGouv_1b_serviceDetails.png "Page d'accueil de la passerelle")
 
     Si une donnée semble ne pas être disponible, revérifier les [prérequis](/fr/appendices/bridge_csw2datagouvfr.html#pr-requis) puis [contacter l'équipe DataGouv](mailto:inspire@data.gouv.fr?subject=Problème de moissonnage d'un CSW (Isogeo)&cc=projets@isogeo.fr).
 
@@ -53,31 +53,31 @@ Afin que vos données puissent être accessibles via la passerelle, il faut qu'e
 
 1. Aller sur https://inspire.data.gouv.fr/
 
-    ![Passerelle INSPIRE - Open Data (1)](/../img/annex_bridge_INSPIRE_DataGouv_1.png "Page d'accueil de la passerelle")
+    ![Passerelle INSPIRE - Open Data (1)](/img/annex_bridge_INSPIRE_DataGouv_1.png "Page d'accueil de la passerelle")
 
 2. Autoriser la passerelle à utiliser le compte DataGouv
 
-    ![Passerelle INSPIRE - Open Data (2)](/../img/annex_bridge_INSPIRE_DataGouv_2_oauth.png "Lier son compte DataGouv")
+    ![Passerelle INSPIRE - Open Data (2)](/img/annex_bridge_INSPIRE_DataGouv_2_oauth.png "Lier son compte DataGouv")
 
 3. Choisir l'organisation à configurer
 
-    ![Passerelle INSPIRE - Open Data (3)](/../img/annex_bridge_INSPIRE_DataGouv_3_LinkOrga.png "Choisir parmi ses organisations")
+    ![Passerelle INSPIRE - Open Data (3)](/img/annex_bridge_INSPIRE_DataGouv_3_LinkOrga.png "Choisir parmi ses organisations")
 
 4. Associer le catalogue moissonné
 
     Dans la liste, choisir le catalogue correspondant au flux que vous avez référencé précédemment.
 
-    ![Passerelle INSPIRE - Open Data (4)](/../img/annex_bridge_INSPIRE_DataGouv_4_PickCatalog.png "Choisir parmi les catalogues sources référencés")
+    ![Passerelle INSPIRE - Open Data (4)](/img/annex_bridge_INSPIRE_DataGouv_4_PickCatalog.png "Choisir parmi les catalogues sources référencés")
 
 5. Choisir les producteurs à associer à ce catalogue
 
     Il s'agit de faire correspondre les contacts renseignés dans la métadonnée et le producteur identifié de la donnée. Par exemple, l'administrateur d'une IDG pourra indiquer à quels ayant-droits correspondent quelles données.
 
-    ![Passerelle INSPIRE - Open Data (4)](/../img/annex_bridge_INSPIRE_DataGouv_6_producerMatched.png "Choisir parmi les producteurs à associer")
+    ![Passerelle INSPIRE - Open Data (4)](/img/annex_bridge_INSPIRE_DataGouv_6_producerMatched.png "Choisir parmi les producteurs à associer")
 
 6. Synchroniser le catalogue pour obtenir les données prêtes à être publiées
 
-    ![Passerelle INSPIRE - Open Data (4)](/../img/annex_bridge_INSPIRE_DataGouv_7b_syncRunning.png "Choisir parmi les producteurs à associer")
+    ![Passerelle INSPIRE - Open Data (4)](/img/annex_bridge_INSPIRE_DataGouv_7b_syncRunning.png "Choisir parmi les producteurs à associer")
 
 7. Gérer la publication des données sur DataGouv
 
@@ -86,4 +86,4 @@ Afin que vos données puissent être accessibles via la passerelle, il faut qu'e
     * `Données en mode privé`, visibles uniquement par les membres de votre organisation ;
     * `Données publiées`, visibles publiquement sur DataGouv.
 
-    ![Passerelle INSPIRE - Open Data (7)](/../img/annex_bridge_INSPIRE_DataGouv_9_dataPublishedBack.png "Régler le niveau de publication des données sur le portail DataGouv")
+    ![Passerelle INSPIRE - Open Data (7)](/img/annex_bridge_INSPIRE_DataGouv_9_dataPublishedBack.png "Régler le niveau de publication des données sur le portail DataGouv")
