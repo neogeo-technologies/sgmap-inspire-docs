@@ -42,14 +42,14 @@ Elle s'appuie exclusivement sur des briques Open-Source, et notamment :
 
 Afin que vos données puissent être intégrées à data.gouv.fr via la passerelle, il faut qu'elles disposent de métadonnées et que celles-ci remplissent tous les critères suivants :
 
-* avoir le mot-clé `données ouvertes` (voir [étiqueter](/fr/features/documentation/md_classify.html)) ;
-* avoir une licence ouverte et indiquer qu'il n'y a aucune limitation au sens INSPIRE (voir [gérer les CGUs](/fr/features/documentation/md_cgu.html#conditions)) ;
-* être présentes dans un catalogue librement accessible via CSW (voir [serveur CSW](/fr/features/publish/csw_server.html)) ;
+* avoir le mot-clé `données ouvertes` ;
+* avoir une licence ouverte et indiquer qu'il n'y a aucune limitation au sens INSPIRE ;
+* être présentes dans un catalogue librement accessible via CSW ;
 * contenir au moins un lien de téléchargement opérationnel.
 
 Les liens de téléchargement reconnus par la passerelle sont :
 
-* lien vers un service WFS (voir [affecter un service WFS](/fr/features/publish/webservices.html#associer-un-flux-wfs)) ;
+* lien vers un service WFS ;
 * lien vers des fichiers de données vecteur aux formats GeoJSON, Shapefile, MapInfo MIF/MID, MapInfo TAB et GML ;
 * lien vers des fichiers de données raster aux formats ECW, JPEG2000 et GeoTIFF.
 
@@ -105,14 +105,14 @@ Une fois la synchronisation terminée (actualisez la page au bout de quelques mi
     
 Plusieurs filtres facilitent la consultation des métadonnées moissonnées :
     
-* `Disponibilité = Oui` : limite l'affichage aux métadonnées dont les données sont accessibles (cf. [prérequis](/fr/appendices/bridge_csw2datagouvfr.html#pr-requis))
+* `Disponibilité = Oui` : limite l'affichage aux métadonnées dont les données sont accessibles (cf. [prérequis](#pré-requis-applicables-aux-données))
 * `Type de résultat = Jeu de données ou Jeu de données (non géographiques)` : en choisissant 'Jeu de données', seules les métadonnées publiées à l'origine en ISO 19139 sont affichées ; en choisissant 'Jeu de données (non géographiques)', seules les métadonnées publiées à l'origine en Dublin Core sont affichées
 * `Donnée ouverte = Oui` : limite l'affichage aux données ouvertes dont la licence est reconnue par data.gouv.fr. Exemples de licences non reconnues par data.gouv.fr : la licence engagée et la licence associée du Grand-Lyon
 * `Publié sur data.gouv.fr = Oui` : identifie les métadonnées moissonnées par la passerelle et déjà publiées sur data.gouv.fr
 
 ![Passerelle INSPIRE - Open Data (1)](/img/annex_bridge_INSPIRE_DataGouv_1b_serviceDetails.png "Page d'accueil de la passerelle")
 
-Si une donnée semble ne pas être disponible, revérifiez les [prérequis](/fr/appendices/bridge_csw2datagouvfr.html#pr-requis) puis [contactez l'équipe data.gouv.fr](mailto:inspire@data.gouv.fr?subject=Problème de moissonnage d'un CSW (Isogeo)&cc=projets@isogeo.fr).
+Si une donnée semble ne pas être disponible, revérifiez les [prérequis](#pré-requis-applicables-aux-données) puis [contactez l'équipe data.gouv.fr](mailto:inspire@data.gouv.fr?subject=Problème de moissonnage d'un CSW (Isogeo)&cc=projets@isogeo.fr).
 
 ### Associer des producteurs à votre organisation
 
@@ -151,7 +151,7 @@ Lors de cette dernière étape, vous ne devez pas sélectionner des producteurs 
 Le premier cadre au haut de la page dresse un état des lieux des données publiables au sens de data.gouv.fr :
 
 - les données déjà publiées et accessibles sur data.gouv.fr ;
-- les données en attente de publication : les données vérifiant les [prérequis](/fr/appendices/bridge_csw2datagouvfr.html#pr-requis), issues de producteurs associés à votre organisme et qui n'ont pas encore été publiées (elles sont en attente d'une action de votre part).
+- les données en attente de publication : les données vérifiant les [prérequis](#pré-requis-applicables-aux-données), issues de producteurs associés à votre organisme et qui n'ont pas encore été publiées (elles sont en attente d'une action de votre part).
 
 Les données qui ne vérifient pas les prérequis et qui ne sont pas issues de producteurs associés à votre organisme n'arrapaissent pas dans cette page.
 
@@ -182,7 +182,7 @@ Plusieurs raisons peuvent expliquer qu'une fiche de métadonnées présente dans
 Pour que vous puissiez les publier, vos métadonnées doivent :
 
 - ne pas avoir déjà été publiées précédemment
-- vérifier des [prérequis](/fr/appendices/bridge_csw2datagouvfr.html#pr-requis)
+- vérifier des [prérequis](#pré-requis-applicables-aux-données)
 - être issues de producteurs associés à votre organisation
 
 Vérifiez donc :
