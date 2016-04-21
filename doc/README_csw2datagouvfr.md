@@ -72,69 +72,69 @@ Pour publier des données via la passerelle, vous devez disposer d'un compte com
 
 #### Créer un compte sur data.gouv.fr
 
-    Pour créer un compte ou se connecter : https://www.data.gouv.fr/login. Il est recommandé de créer un compte directement sans l'interface d'un réseau social.
+Pour créer un compte ou se connecter : https://www.data.gouv.fr/login. Il est recommandé de créer un compte directement sans l'interface d'un réseau social.
 
-    ![DataGouv - Inscription/connexion](/img/annex_bridge_INSPIRE_DataGouv_00a.png "Se connecter ou créer un compte sur DataGouv")
+![DataGouv - Inscription/connexion](/img/annex_bridge_INSPIRE_DataGouv_00a.png "Se connecter ou créer un compte sur DataGouv")
 
 #### Créer / rejoindre une organisation sur data.gouv.fr
 
-    Pour cela, il faut passer par l'administration de votre profil : https://www.data.gouv.fr/fr/admin/organization/new/. Si elle existe déjà, faites une demande pour la rejoindre.
+Pour cela, il faut passer par l'administration de votre profil : https://www.data.gouv.fr/fr/admin/organization/new/. Si elle existe déjà, faites une demande pour la rejoindre.
 
-    ![DataGouv - Organisation](/img/annex_bridge_INSPIRE_DataGouv_00b_NewOrganization.png "Créer son organisation sur DataGouv")
+![DataGouv - Organisation](/img/annex_bridge_INSPIRE_DataGouv_00b_NewOrganization.png "Créer son organisation sur DataGouv")
 
 
 ### Référencer et moissonner un flux CSW
 
 #### Demander à référencer votre flux CSW
 
-    Pour référencer le flux CSW de votre catalogue, écrivez à [inspire@data.gouv.fr](mailto:inspire@data.gouv.fr?subject=Ajout d'un service CSW pour diffusion synchronisée sur DataGouv&cc=projets@isogeo.fr) en indiquant votre compte data.gouv.fr, votre / vos organisation(s) et bien sûr le(s) flux concerné(s).
+Pour référencer le flux CSW de votre catalogue, écrivez à [inspire@data.gouv.fr](mailto:inspire@data.gouv.fr?subject=Ajout d'un service CSW pour diffusion synchronisée sur DataGouv&cc=projets@isogeo.fr) en indiquant votre compte data.gouv.fr, votre / vos organisation(s) et bien sûr le(s) flux concerné(s).
 
 #### Lancer le moissonnage de votre catalogue
 
-    Une fois votre flux CSW référencé par l'équipe de data.gouv.fr,  lancez le moissonnage. Pour cela :
+Une fois votre flux CSW référencé par l'équipe de data.gouv.fr,  lancez le moissonnage. Pour cela :
     
 - rendez vous sur la [page d'accueil de la passerelle Inspire](https://inspire.data.gouv.fr/) ;
 - cliquez sur le bouton [Consulter les catalogues](https://inspire.data.gouv.fr/services/by-protocol/csw) ;
 - puis cliquez sur `Synchroniser` en regard de votre service.
 
-    ![Passerelle INSPIRE - Open Data (1)](/img/annex_bridge_INSPIRE_DataGouv_1a_syncCSW.png "Page d'accueil de la passerelle")
+![Passerelle INSPIRE - Open Data (1)](/img/annex_bridge_INSPIRE_DataGouv_1a_syncCSW.png "Page d'accueil de la passerelle")
 
 #### Vérifier le moissonnage
 
-    Une fois la synchronisation terminée (actualisez la page au bout de quelques minutes selon le nombre de métadonnées à moissonner), ouvrez la page détaillée du service.
+Une fois la synchronisation terminée (actualisez la page au bout de quelques minutes selon le nombre de métadonnées à moissonner), ouvrez la page détaillée du service.
     
-    Plusieurs filtres facilitent la consultation des métadonnées moissonnées :
+Plusieurs filtres facilitent la consultation des métadonnées moissonnées :
     
 * `Disponibilité = Oui` : limite l'affichage aux métadonnées dont les données sont accessibles (cf. [prérequis](/fr/appendices/bridge_csw2datagouvfr.html#pr-requis))
 * `Type de résultat = Jeu de données ou Jeu de données (non géographiques)` : en choisissant 'Jeu de données', seules les métadonnées publiées à l'origine en ISO 19139 sont affichées ; en choisissant 'Jeu de données (non géographiques)', seules les métadonnées publiées à l'origine en Dublin Core sont affichées
 * `Donnée ouverte = Oui` : limite l'affichage aux données ouvertes dont la licence est reconnue par data.gouv.fr. Exemples de licences non reconnues par data.gouv.fr : la licence engagée et la licence associée du Grand-Lyon
 * `Publié sur data.gouv.fr = Oui` : identifie les métadonnées moissonnées par la passerelle et déjà publiées sur data.gouv.fr
 
-    ![Passerelle INSPIRE - Open Data (1)](/img/annex_bridge_INSPIRE_DataGouv_1b_serviceDetails.png "Page d'accueil de la passerelle")
+![Passerelle INSPIRE - Open Data (1)](/img/annex_bridge_INSPIRE_DataGouv_1b_serviceDetails.png "Page d'accueil de la passerelle")
 
-    Si une donnée semble ne pas être disponible, revérifiez les [prérequis](/fr/appendices/bridge_csw2datagouvfr.html#pr-requis) puis [contactez l'équipe data.gouv.fr](mailto:inspire@data.gouv.fr?subject=Problème de moissonnage d'un CSW (Isogeo)&cc=projets@isogeo.fr).
+Si une donnée semble ne pas être disponible, revérifiez les [prérequis](/fr/appendices/bridge_csw2datagouvfr.html#pr-requis) puis [contactez l'équipe data.gouv.fr](mailto:inspire@data.gouv.fr?subject=Problème de moissonnage d'un CSW (Isogeo)&cc=projets@isogeo.fr).
 
 ### Associer des producteurs à votre organisation
 
 #### S'authentifier sur la passerelle
 
-    ![Passerelle INSPIRE - Open Data (1)](/img/annex_bridge_INSPIRE_DataGouv_1.png "Page d'accueil de la passerelle")
-    
+![Passerelle INSPIRE - Open Data (1)](/img/annex_bridge_INSPIRE_DataGouv_1.png "Page d'accueil de la passerelle")
+        
 - rendez vous sur la [page d'accueil de la passerelle Inspire](https://inspire.data.gouv.fr/) ;
 - cliquez sur le bouton [C'est par ici !](https://inspire.data.gouv.fr/services/by-protocol/csw) ;
 - autorisez la passerelle à utiliser votre compte data.gouv.fr
 
-    ![Passerelle INSPIRE - Open Data (2)](/img/annex_bridge_INSPIRE_DataGouv_2_oauth.png "Lier son compte DataGouv")
+![Passerelle INSPIRE - Open Data (2)](/img/annex_bridge_INSPIRE_DataGouv_2_oauth.png "Lier son compte DataGouv")
 
 #### Associer des producteurs à votre organisation
 
-    ![Passerelle INSPIRE - Open Data (3)](/img/annex_bridge_INSPIRE_DataGouv_3_LinkOrga.png "Choisir parmi ses organisations")
+![Passerelle INSPIRE - Open Data (3)](/img/annex_bridge_INSPIRE_DataGouv_3_LinkOrga.png "Choisir parmi ses organisations")
 
 - dans la liste des organisations associées à votre compte, cliquez sur le nom de l'organisation à configurer ;
 - vérifiez que votre organisation est associée au bon catalogue. Si ce n'est pas le cas, cliquez sur le bouton "Modifier" et sélectionner le catalogue que vous avez demandé de référencer précédemment ;
 - cliquez sur le bouton "Associer des producteurs" et sélectionner les producteurs pour lesquels vous assumerez la publication des métadonnées. 
 
-    ![Passerelle INSPIRE - Open Data (4)](/img/annex_bridge_INSPIRE_DataGouv_6_producerMatched.png "Choisir parmi les producteurs à associer")
+![Passerelle INSPIRE - Open Data (4)](/img/annex_bridge_INSPIRE_DataGouv_6_producerMatched.png "Choisir parmi les producteurs à associer")
     
 Lors de cette dernière étape, vous ne devez pas sélectionner des producteurs dont vous n'avez pas la responsabilité. En effet, une fois que vous aurez associé un producteur à votre organisation aucune autre organisation ne pourra l'associer à son propre compte. Vous ne devez donc pas associer à votre organisation des producteurs dont la politique de publication doit être assurer indépendamment de la vôtre. Typiquement, n'associer pas l'IGN, le BRGM, l'INSEE ou d'autres producteurs de données de ce type si vous ne faites pas partie de ces organismes. Par contre, il peut être très pertinent qu'un EPCI prenne en charge la publication des données pour le compte de ses communes.
 
@@ -160,7 +160,7 @@ Les données qui ne vérifient pas les prérequis et qui ne sont pas issues de p
 - depuis la page précédente, cliquez sur le bouton "Publier des données" ;
 - le premier cadre en haut de la page identifie l'ensemble des données en attente d'être publiées. Cliquez sur le lien "Publier" d'un jeu de données particulier ou sur le bouton "Publier toutes les données" pour publier ces données sur data.gouv.fr
 
-    ![Passerelle INSPIRE - Open Data (7)](/img/annex_bridge_INSPIRE_DataGouv_9_dataPublishedBack.png "Publier des données sur le portail DataGouv")
+![Passerelle INSPIRE - Open Data (7)](/img/annex_bridge_INSPIRE_DataGouv_9_dataPublishedBack.png "Publier des données sur le portail DataGouv")
 
 ## Problèmes fréquemments rencontrés
 
