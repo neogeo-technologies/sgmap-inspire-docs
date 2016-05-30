@@ -47,6 +47,8 @@ Afin que vos données puissent être intégrées à data.gouv.fr via la passerel
 * être présentes dans un catalogue librement accessible via CSW ;
 * contenir au moins un lien de téléchargement opérationnel.
 
+Remarque : le premier critère n'est pas toujours requis. En effet, si les métadonnées pointent vers une licence reconnue comme ouverte la passerelle passera outre ce critère.
+
 Les liens de téléchargement reconnus par la passerelle sont :
 
 * lien vers un service WFS ;
